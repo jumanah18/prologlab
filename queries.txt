@@ -1,0 +1,26 @@
+12 ?- father(mulfi, jumanah).
+true.
+
+13 ?- father(mulfi, ahmed).
+true.
+
+14 ?- father(mulfi, sarah).
+false.
+
+15 ?- mother(sarah, mulfi).
+false.
+
+16 ?- mother(sarah, rasha).
+true.
+
+17 ?- sister(jumanah, ahmed).
+true 
+
+18 ?- sister(rasha, mohammed).
+true .
+
+19 ?- brother(mohammed, layan).
+true .
+
+20 ?- brother(ahmed, sarah).
+false.
